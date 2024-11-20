@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+
+body {
+    background-color: #F4F0EA;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 2rem;
+    background-color: #4c7a7d;
+    color: #ffff;
+    text-align: center;
+    
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 4em;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+}
+
+header li a {
+    color: hotpink;
+}
+
+nav a:hover {
+    color: white
+
+}
+
+header ul li{
+    background-color: white; 
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+main{ 
+    padding: 3em;
+    display: flex;
+    flex-direction:column ;
+    gap: 2em;
+    font-size: 1.2em;
+}
+h2 {
+    color: #022c2f;
+    text-align: center;
+    padding-block-end: 2rem;
+    font-size: 3em;
+}
+
+
+select{
+    cursor: pointer;
+    padding: 2px;
+    background-color: #ffff;
+    color: rgb(134, 34, 84);
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #0b6267;
+}
+
+textarea{
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid rgb(134, 34, 84);
+    border-radius: 5px ;
+    background-color: #fff7eb;
+}
+
+input::placeholder{
+    color: rgb(134, 34, 84);
+}
+
+textarea::placeholder{
+    color:rgb(134, 34, 84) ;
+}
+
+fieldset{
+    border: 2px solid #0b4f53;
+    border-radius: 5px;
+    padding: 1rem;
+    align-items: center;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #0b6267;
+    border-radius: 5px ;
+    background-color: transparent;
+    margin-left: 0.5rem;
+    align-items: center;
+}
+
+input[type="email"]{
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #0b6267;
+    border-radius: 5px ;
+    background-color: transparent;
+    margin-left: 0.5rem;
+}
+
+fieldset label{
+    padding: 3px;
+}
+
+button{
+    background-color: #4c7a7d;
+    border: none;
+    padding: 10px;
+    margin-top: 1rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+legend{
+    color: rgb(134, 34, 84);
+    padding: 0 0.5rem ;
+}
+
+
+footer{
+    background-color: #4c7a7d;
+    padding-top: 20px;
+    outline: none;
+}
+
+.footerContainer {
+    width: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons img {
+    width: 35px;
+    height:auto;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+   padding: 5px;
+   border-radius: 10px; 
+}
+
+.socialicons nav{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav {
+margin: 5px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    color: #ffff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    color: hotpink;
+}
+.bottom-bar{
+    background:#0b6267 ;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px ;
+}
+.bottom-bar p{
+    color: #ffff;
+    margin: o;
+    font-size: 16px;
+    padding: 7px;
+}
